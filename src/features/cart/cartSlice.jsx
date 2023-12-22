@@ -1,7 +1,7 @@
-const { createSlice } = require("@reduxjs/toolkit");
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  cat: [
+  cart: [
     {
       pizzaId: 12,
       name: "Mediterranean",
